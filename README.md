@@ -38,4 +38,10 @@ cd ExpenseTracker
 python expenseTracker.py
 ```
 
-**When adding a transaction, enter the date in this format:**
+**When adding a transaction, enter the date in this format: YYYY-MM-DD**
+
+## Tech Used
+- Python 3
+- `csv` module — reading and writing transaction data
+- `datetime` module — validating date input
+- `os` module — checking if the CSV file already exists
